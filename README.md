@@ -1,3 +1,8 @@
+# Structure
+* Biller is the main class that performs the business logic
+* Every utility based class/object is present in core directory
+* `geektrust.js` calls biller after cleaning input with cleanInput.CleanInput class.
+
 # Pre-requisites
 * NodeJS 12.6.0/14.15.4/16.10.0
 * npm
